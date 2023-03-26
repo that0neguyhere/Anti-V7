@@ -1,6 +1,6 @@
 
  
-game.Players.LocalPlayer.Character["LUAhEAD"].Handle.Mesh:Destroy()
+game.Players.LocalPlayer.Character["SeeMonkey"].Handle.Mesh:Destroy()
 game.Players.LocalPlayer.Character["Pink Hair"].Handle.Mesh:Destroy()
 game.Players.LocalPlayer.Character["Kate Hair"].Handle.Mesh:Destroy()  
 game.Players.LocalPlayer.Character["LavanderHair"].Handle.Mesh:Destroy()
@@ -866,7 +866,7 @@ local function gp(parent, name, className)
     return nil
 end
  
-local hat2 = gp(cplayer, "LUAhEAD", "Accessory")
+local hat2 = gp(cplayer, "SeeMonkey", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Torso"]
@@ -878,28 +878,28 @@ local hat2 = gp(cplayer, "Pink Hair", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Left Arm"]
-att2.Position = Vector3.new(0.125, -0.125, 0)
+att2.Position = Vector3.new(0, -0, 0)
 att2.Rotation = Vector3.new(90, 0, 0)
 
 local hat2 = gp(cplayer, "Kate Hair", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Right Arm"]
-att2.Position = Vector3.new(-0.125, -0.175, 0)
+att2.Position = Vector3.new(-0, -0, 0)
 att2.Rotation = Vector3.new(90, 0, 0) --LavanderHair
 
 local hat2 = gp(cplayer, "LavanderHair", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Right Leg"]
-att2.Position = Vector3.new(0.005, 0.175, 0) --Robloxclassicred
+att2.Position = Vector3.new(0, 0, 0) --Robloxclassicred
 att2.Rotation = Vector3.new(90, 0, 0)
 
 local hat2 = gp(cplayer, "Robloxclassicred", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Left Leg"]
-att2.Position = Vector3.new(-0.005, 0.15, 0) 
+att2.Position = Vector3.new(-0, 0, 0) 
 att2.Rotation = Vector3.new(90, 0, 0) 
  
 
@@ -907,5 +907,5 @@ local hat2 = gp(cplayer, "Yoga Mat", "Accessory")
 local handle2 = gp(hat2, "Handle", "BasePart")
 local att2 = gp(handle2, "att1_Handle", "Attachment")
 att2.Parent = cplayer["Head"]
-att2.Position = Vector3.new(-0.005, 0.15, 0) 
+att2.Position = Vector3.new(-0, 0, 0) 
 att2.Rotation = Vector3.new(90, 0, 0) 
